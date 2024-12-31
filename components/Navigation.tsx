@@ -8,7 +8,6 @@ import Transition from "./Transition";
 const Navigation = () => {
     const [isRouting, setisRouting] = useState(false)
     const path = usePathname()
-    const [isActive, setisActive] = useState(path)
     const [prevPath, setprevPath] = useState("/")
 
     useEffect(() => {
